@@ -1,0 +1,10 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: pt.inevo.nuxeo.filemanager
+Bundle-Version: 1.0.0
+Bundle-Name: visual-plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: pt.inevo.nuxeo.filemanager.visual-plugin;singleton=true
+Nuxeo-Component: OSGI-INF/filemanager-plugins-contrib.xml
+

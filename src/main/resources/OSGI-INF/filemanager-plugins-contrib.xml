@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.ecm.platform.visual.filemanager.contrib">
+
+    <extension
+            target="org.nuxeo.ecm.platform.filemanager.service.FileManagerService"
+            point="plugins">
+        <documentation>
+            Simple plugin for the file manager to import images as documents.
+        </documentation>
+        <plugin name="VisualPlugin"
+                class="pt.inevo.filemanager.VisualPlugin"
+                order="0">
+            <filter>image/jpeg</filter>
+            <filter>image/jpg</filter>
+            <filter>image/png</filter>
+        </plugin>
+    </extension>
+
+</component>
